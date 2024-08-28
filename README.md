@@ -19,8 +19,8 @@ pip install numpy scikit-image matplotlib
 ##  How to run
 1) Preparing Dataset:
 
-    - Place your training images (e.g., face01.pgm, face02.pgm, ...) in the faces_training/ directory.
-    - Place your test images (e.g., test01.pgm, test02.pgm, ...) in the faces_test/ directory.
+    - Place training images (e.g., face01.pgm, face02.pgm, ...) in the faces_training/ directory.
+    - Place test images (e.g., test01.pgm, test02.pgm, ...) in the faces_test/ directory.
 
 2) Running the Script:
 
@@ -49,7 +49,6 @@ the original images. This consists of the following steps.
 1) Compute the projections of the original images onto the selected principal components.
 2) Use the projections and the principal components to reconstruct the images.
 
-With 0.95 as the amount of variance, the eigenfaces are as below.
 
 ### Error Calculation
 

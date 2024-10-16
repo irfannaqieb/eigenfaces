@@ -1,4 +1,4 @@
-# Simple Facial Recognition using Eigenfaces
+# Simple Face Recognition using Eigenfaces
 
 This project demonstrates a basic facial recognition system using the concept of eigenfaces. Eigenfaces are the principal components of the face space and can be used for facial recognition by projecting new images into the face space and finding the closest match.
 
